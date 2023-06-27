@@ -1,0 +1,184 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:rgba(56, 53, 100, 0.387);
+
+}
+ul{
+text-align: right;
+display: flex;
+    justify-content: space-between;
+   list-style-type: none;
+   text-transform: capitalize;
+   padding-right: 3vw;
+ 
+   
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-display:4px;
+
+}
+#head:hover{
+    box-shadow: 20px 20px 50px 10px rgb(41, 95, 56) inset;
+  
+}
+
+li::first-letter{
+font-size: 20px;
+    color: rgb(77, 13, 90);
+    border: 2px dotted rgb(77, 176, 209);
+}
+#head{
+    height: 10vh;
+    width: 98vw;
+    box-shadow: 20px 20px 50px 10px rgb(236, 8, 103) inset;
+    padding-top: 10px;
+}
+.input{
+    padding-left: 10px;
+}
+input[type=text]{
+    width: 130px;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    text-align: left;
+    background-color: white;
+    margin: 15px;
+
+
+}
+input[type=text]:focus{
+    width: 100%;
+
+}
+#images{
+    height: 90vh;
+    width: 98vw;
+    
+
+
+}
+#images img{
+    height: inherit;
+    width: inherit;
+
+}
+
+/* about contain open */
+.image1 img
+{
+    height: 31vh;
+    width: inherit;
+    border-radius: 28px 10px;
+
+}
+
+.image1 p{
+    padding-top: 10px;
+   
+}
+.image1{
+    height: 40vh;
+    width: 14vw;
+background-color:rgb(255, 255, 255);
+text-align: center;
+justify-content: center;
+color: rgb(243, 16, 148);
+border-radius: 28px 10px;
+
+
+}
+.allimage{
+    display: flex;
+    padding-left: 130px;
+    gap: 20px;
+}
+
+#prodects{
+    height: 99vh;
+    width: 98vw;
+    box-shadow: 20px 30px 10px 40px rgba(143, 75, 112, 0.262) inset;
+    margin-top: 40px;
+}
+pre{
+    font-size: 22px;
+}
+
+
+/* about-us */
+#about{
+width: 98vw;
+height: 50vw;
+background-color: rgba(100, 71, 92, 0.158);
+}
+iframe{
+    padding-right: 20px;
+    padding-top: 20px;
+}
+ .imageabout{
+    width: 21vw;
+    height:20vh;
+} 
+.imageabout img{
+    border-radius: 20px;
+    width:20vw;
+    height: 40vh;
+}
+.allimageabout{
+    display: flex;
+    gap: 21px;
+    padding-left: 10px;
+   
+}
+/* brochers */
+#brochers{
+
+}
+
+/* end */
+#end{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5vw;
+    padding-top: 20px;
+    list-style-type: none;
+}
+#end li img{
+    padding-left: 50px;
+    
+}
+
+
+
+/* our product */
+#ourprojuct{
+    height: 110vh;
+    width: 98vw;
+    box-shadow: 20px 50px 20px 30px rgb(50, 61, 126) inset;
+}
+.woman img{
+    padding-top: 20px;
+    width: 19.3vw;
+    height: 30vh;
+    border-radius: 20px 60px 20px 60px;
+}
+.man img{
+    padding-right: 30px;
+    border-radius: 20px 30px 60px 30px;
+
+}
+#end{
+    padding-bottom: 20px;
+    border: 2px solid rgba(30, 46, 33, 0.5);
+    box-shadow: 20px 20px 50px 10px rgb(34, 77, 77) inset;
+
+}

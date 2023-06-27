@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .heading1{
+        width: 100vw;
+        height: 8vh;
+        background-color: black;
+        }
+        .heading1 h1 {
+          padding: 0;
+          margin: 0;
+            float: left;
+            color: white;
+            font-style: italic;
+   
+        }
+        .heading1 button{
+          height: 2.6rem;
+          width: 5rem;
+            float: right;
+            color: aliceblue;
+            background-color: rgb(16, 234, 16);
+            margin: 5px 20px;
+    padding: 0.8vw 0.8vw;
+    border-radius: 10px;
+    font-size: 15px;
+        }
+
+
+
+
+        .heading2{
+        width: 100vw;
+        height: 8vh;
+        background-color: white;
+        display: flex;
+        }
+        .headin2 button{
+          width: 70px;
+          height: 55px;
+          background-color: orangered;
+          color: white;
+          font-size: 40px;
+          margin-top: -3px;
+        }
+        .heading2 input{
+          width: 25vw;
+          height: 6vh;
+          margin-top: 6px;
+          margin-left: 30px;
+          border-radius: 10px;
+          background-color: #d4efdc00;
+          border: 1px solid white;
+        }
+        .po{
+          display: flex;
+          gap: 18vw;
+          padding-top: 15px;
+          padding-left: 40px;
+          color: #b9a6a6;
+        }
+        .po button{
+          margin-top: -10px;
+         min-width:150px;
+          min-height: 40px;
+          border-radius: 10px;
+          background-color: #b9a6a6;
+        }
+        
+        .heading3{
+        width: 100vw;
+        height: 10vh;
+        }
+        /* seach in tags in csss */
+        .topnav {
+    background-color: rgb(129, 144, 137);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  
+  /* Dropdown container - needed to position the dropdown content */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: #555;
+    color: white;
+  }
+ 
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+ 
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child), .dropdown .dropbtn {
+      display: none;
+    }
+    .topnav a.icon {
+      float: left;
+      display: block;
+    }
+  }
+  
+ 
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .topnav.responsive .dropdown {float: none;}
+    .topnav.responsive .dropdown-content {position: relative;}
+    .topnav.responsive .dropdown .dropbtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+  button {
+  background-color: #2cd17f;
+  color: rgb(14, 1, 1);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+styling search bar */
+        .search input[type=text]{
+            width:300px;
+            height:25px;
+            border-radius:25px;
+            border: none;
+ 
+        }
+         
+        .search{
+            float:left;
+            margin:7px;
+ 
+        }
+         
+        .search button{
+            background-color: #0074D9;
+            color: #f2f2f2;
+            float: left;
+            padding: 5px 10px;
+            margin-right: 16px;
+            font-size: 12px;
+            border: none;
+            cursor: pointer;
+        }
+  .mintuu 
+  {
+background-color: rgb(2, 12, 12);
+width:100vw;
+height:8vh;
+
+  }
+  .mintuu,h1
+  {
+
+    color: #f9f9f9;
+  }
+  .relat
+  {
+    background-color: rgb(52, 223, 223);
+width:100vw;
+height:8vh;
+
+
+  }
+        
+        /* close in seach in tags in css */
+
+        /* headding images css */
+        *{
+        
+            box-sizing: border-box;
+            
+        }
+        body{
+            background-color: aliceblue;
+        }
+        .gallery{
+            width: 100vw;
+            display: flex;
+            overflow-x: scroll;
+            
+        }
+        .gallery #imgfist1{
+            width:90vw;
+            display: grid;
+            grid-template-columns: auto auto auto ;
+            padding-left: 10px;
+            flex: none;
+
+            
+        }      
+       
+       
+            .gallery::-webkit-scrollbar{
+                display: none;
+            }
+            .gallery-wrap{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 10px auto;
+            }
+            #backbutton,#nextbutton{
+                width: 50px;
+                cursor: pointer;
+                margin: -10px;
+            
+            }
+            
+
+
+#imgfist1{
+    margin-right: -3px;
+
+    
+}
+
+
+           .imgfist.nuts{
+            width: 28vw;
+            height: 35vh;
+            
+            border: 6px solid white;
+            border-radius: 10px; 
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2dQrncp-ajq8rsSQQcRFzgjxoqOSdjSnkOg&usqp=CAU);
+        background-size:100%;
+    margin-right:10px;
+       
+        
+        }
+        .imgfist.vegetables{
+            width: 28vw;
+            height: 35vh;
+            
+            border: 6px solid white;
+            border-radius: 10px; 
+            background-image: url(https://t4.ftcdn.net/jpg/01/25/31/19/360_F_125311972_pKSvvUp8odP1B1rhQ3KCTaL1ky1vaM0G.jpg);
+        background-size: cover;
+    margin-right:10px;
+        }
+        .imgfist.fruits{
+            width: 28vw;
+            height: 35vh;
+            
+            border: 6px solid white;
+            border-radius: 10px; 
+            background-image: url(https://st.depositphotos.com/2338515/3260/i/600/depositphotos_32608873-stock-photo-fruits.jpg);
+        background-size: cover;
+    
+        }
+        .imgfist.eggs{
+            width: 28vw;
+            height: 35vh;
+        box-shadow:20px 20px 19px 20px rgba(66, 126, 121, 0.434) inset;  
+            border: 6px solid white;
+            border-radius: 10px; 
+            background-image: url(https://www.shutterstock.com/image-photo/many-white-duck-hen-eggs-260nw-2155738175.jpg);
+        background-size: cover;
+    padding-right: 10px;
+        }
+       
+        .imgfist.beverages{
+            width: 28vw;
+            height: 35vh;
+        box-shadow:20px 20px 19px 20px rgba(66, 126, 121, 0.434) inset;  
+            border: 6px solid white;
+            border-radius: 10px; 
+            background-image: url(https://handcrafteddrinksmag.co.uk/wp-content/uploads/2021/02/drink_banner_alternative-1.jpeg);
+        background-size: cover;
+    padding-right: 10px;
+        }
+       
+        
+        
+        .devition{
+            /* box-shadow:10px 2px 20px 20px rgba(205, 215, 227, 0.396) inset; */
+                    /* box-shadow:10px 2px 20px 20px rgba(37, 100, 177, 0.396) inset;  */
+                    /* box-shadow:20px 20px 19px 20px rgba(218, 220, 213, 0.58) inset;  */
+                    box-shadow:59px 4px 9px 4px rgba(214, 225, 207, 0.811) inset; 
+               width: initial;
+            height: 15vh;
+            margin-top: 20px;
+            padding-left: 10px;
+            padding-top: 2px;
+            
+        }
+        .devition ,h2 {
+            padding-top: 5px;
+            color: rgba(16, 16, 16, 0.906);
+        }
+        .devition ,h4 {
+            padding-top: 5px;
+            color: rgb(82, 76, 76);
+        }
+
+        .imgfist button{
+        float:right;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+        width: 7rem;
+        height: 2.3rem;
+        background-color: rgb(234, 147, 17);
+        border-color: white;
+        border-radius: 7px;
+        color: white;
+        }
+        .imgfist button:hover{
+            background-color: rgba(215, 135, 16, 0.903);
+        color: white;
+        }
+        /* close headding images css
+         */
+    </style>
+   
+    <title>Document</title>
+</head>
+<body>
+
+
+   
+
+    
+    <div class="heading1">
+<h1 style="margin-top: -10px;color: rgb(20, 228, 79);">
+  ★ᶦᶰᵈ᭄❂Market࿐
+  </h1>
+<button>Buy now</button>
+    </div>
+    <div class="heading2">
+      <div class="headin2">
+<button><center>R</center></button>
+</div>
+
+<pre style="margin-left: 10px;"><h style="font-size:20px; color: orangered;">Rajesh</h>
+<h style="font-size: 13px;color: orange;" >Supermarket</h></pre>
+   <input placeholder="seach for products" >
+   <div class="po">
+  <h>9676192416</h>
+  <h>Offers</h>
+  <button>Profile</button>
+  </div>
+</div>
+    <div class="heading3">
+
+         <!-- headiing in html page -->
+    <div class="topnav" id="myTopnav">
+        <div class="search">
+                   
+          <form action="#">
+             
+        <a href="#home" class="active"><a href="HAIR CARE.html"target="main">Select Category </a><a href="#HAIR CARE.HTML"></a></a>
+        <a href="#news"><a href="HAIR CARE.html"target="main">HOME </a><a href="#HAIR CARE.HTML"></a></a>
+        <a href="#contact"><a href="HAIR CARE.html"target="main">New Products</a><a href="#HAIR CARE.HTML"></a></a>
+        <a href="#contact"><a href="HAIR CARE.html"target="main">Featured Products</a><a href="#HAIR CARE.HTML"></a></a>
+        <div class="dropdown">
+          </button>
+          <a href="HAIR CARE.html"target="main">Our Blog </a><a href="#HAIR CARE.HTML"></a>
+          <li><div class="dropdown-content">
+            <a href="#">Our Blog</a>
+            <a href="#">Blog Two No Sidebar</a>
+            <a href="#">Our Blog With Left Sidebar</a>
+            <a href="#">Our Our Blog With Right Sidebar</a>
+            <a href="#">Blog Details View</a>
+            <a href="#">Blog Details View With Sidebar</a></li>
+          </div>
+          <div class="dropdown">
+          <a href="HAIR CARE.html"target="main">Pages</a><a href="#HAIR CARE.HTML"></a>
+          <li><div class="dropdown-content">
+            <a href="#">About Us</a>
+            <a href="#">Online Shop</a>
+            <a href="#">Single Product View</a>
+            <a href="#">Checkout</a>
+            <a href="#">Product Request</a>
+            <a href="#">Orderb Placed</a>
+            <a href="#">Bill Slip</a>
+            <a href="#">Product Request</a>
+            <a href="#">Orderb Placed</a>
+            <a href="#">Bill Slip</a>
+            <a href="#">JOb Details View</a>
+            <a href="#">Sign In</a></li>
+            
+          </div>
+          <a href="LOGINPAGE.html"target="main">LOGIN</a>
+         
+      
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      
+      </div>
+      
+<!-- close the headiing in the html page -->
+
+ </div>
+
+ <div>
+    <div class="gallery-wrap">
+        <img src="https://cdn-icons-png.flaticon.com/128/10347/10347223.png" id="backbutton">
+        <div class="gallery">
+        <div id="imgfist1">
+            <span>
+                <div class="imgfist  nuts" id="i1">
+                    <div class="devition">
+                    <h2>Buy More & Save More</h2>
+                    <h4>Nuts &Snacks</h4>  
+                </div>
+                <button>Shop Now</button>
+                </div>
+    
+            </span>
+           
+            <span>
+                <div class="imgfist vegetables " id="i1">
+                    <div class="devition">
+                    <h2>Buy More & Save More</h2>
+                    <h4>Fresh Vegetables</h4>  
+                </div>
+                <button>Shop Now</button>
+                </div>
+            </span>
+            <span>
+                <div class="imgfist fruits" id="i1">
+                <div class="devition">
+                <h2>Buy More & Save More</h2>
+                <h4>Fresh Fruits</h4>  
+            </div>
+            <button>Shop Now</button>
+            </div></span>
+        </div>
+        <div>
+            <div id="imgfist1">
+            <span>
+                <div class="imgfist eggs" id="i1">
+                    <div class="devition">
+                    <h2>Buy More & Save More</h2>
+                    <h4>Daily Essentials Eggs & Dairy</h4>  
+                </div>
+                <button>Shop Now</button>
+                </div>
+    
+            </span>
+            <span>
+                <div class="imgfist beverages" id="i1">
+                    <div class="devition">
+                    <h2>Buy More & Save More</h2>
+                    <h4>Beverages</h4>  
+                </div>
+                <button>Shop Now</button>
+                </div>
+            </span>
+            <span>
+                <div class="imgfist eggs " id="i1">
+                <div class="devition">
+                <h2>Buy More & Save More</h2>
+                <h4>Nuts &Snacks</h4>  
+            </div>
+            <button>Shop Now</button>
+            </div>
+            </div></span>
+        </div>
+       
+    </div>
+        <img src="https://cdn-icons-png.flaticon.com/128/318/318275.png" id="nextbutton">
+    </div>
+    
+    
+    <script>
+    let scrollcontainer = document.querySelector(".gallery")
+    let backBtn = document.getElementById("backbutton");
+    let nextBtn = document.getElementById("nextbutton");
+    scrollcontainer.addEventListener("wheel", (evt) => {
+    evt.preventDefault();
+    scrollcontainer.scrollLeft += evt.deltaY;
+    scrollcontainer.style.scrollBehavior = "auto";
+    });
+    backBtn.addEventListener("click", ()=>{
+    scrollcontainer.style.scrollBehavior = "smooth";
+    scrollcontainer.scrollLeft += 400;
+    });
+    nextBtn.addEventListener("click", ()=>{
+    scrollcontainer.style.scrollBehavior = "smooth";
+    scrollcontainer.scrollLeft -= 400;
+    });
+    </script> 
+    
+    <!-- <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("gallery-wrap");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+        </script> -->
+
+ </div>
+</body>
+</html>

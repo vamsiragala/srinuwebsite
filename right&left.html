@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+        body{
+            background-color: aliceblue;
+        }
+        .gallery{
+            width: 100vw;
+            display: flex;
+            overflow-x: scroll;
+            
+        }
+        .gallery #imgfist1{
+            width:90vw;
+            display: grid;
+            grid-template-columns: auto auto auto auto ;
+            padding-left: 10px;
+            flex: none;
+
+            
+        }      
+       
+       
+            .gallery::-webkit-scrollbar{
+                display: none;
+            }
+            .gallery-wrap{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 10px auto;
+            }
+            #backbutton,#nextbutton{
+                width: 50px;
+                cursor: pointer;
+                margin: -10px;
+            
+            }
+            
+
+
+#imgfist1{
+    margin-right: -3px;
+
+    
+}
+
+
+           .imgfist.nuts{
+            width: 28vw;
+            height: 35vh;
+            
+            border: 6px solid white;
+            border-radius: 10px; 
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2dQrncp-ajq8rsSQQcRFzgjxoqOSdjSnkOg&usqp=CAU);
+        background-size:100%;
+    margin-right:10px;
+       
+        
+        }
+        .imgfist.vegetables{
+            width: 28vw;
+            height: 35vh;
+            
+            border: 6px solid white;
+            border-radius: 10px; 
+            background-image: url(https://t4.ftcdn.net/jpg/01/25/31/19/360_F_125311972_pKSvvUp8odP1B1rhQ3KCTaL1ky1vaM0G.jpg);
+        background-size: cover;
+    margin-right:10px;
+        }
+        .imgfist.fruits{
+            width: 28vw;
+            height: 35vh;
+            
+            border: 6px solid white;
+            border-radius: 10px; 
+            background-image: url(https://st.depositphotos.com/2338515/3260/i/600/depositphotos_32608873-stock-photo-fruits.jpg);
+        background-size: cover;
+    
+        }
+        .imgfist.eggs{
+            width: 28vw;
+            height: 35vh;
+        box-shadow:20px 20px 19px 20px rgba(66, 126, 121, 0.434) inset;  
+            border: 6px solid white;
+            border-radius: 10px; 
+            background-image: url(https://www.shutterstock.com/image-photo/many-white-duck-hen-eggs-260nw-2155738175.jpg);
+        background-size: cover;
+    padding-right: 10px;
+        }
+       
+        .imgfist.beverages{
+            width: 28vw;
+            height: 35vh;
+        box-shadow:20px 20px 19px 20px rgba(66, 126, 121, 0.434) inset;  
+            border: 6px solid white;
+            border-radius: 10px; 
+            background-image: url(https://handcrafteddrinksmag.co.uk/wp-content/uploads/2021/02/drink_banner_alternative-1.jpeg);
+        background-size: cover;
+    padding-right: 10px;
+        }
+       
+        
+        
+        .devition{
+            /* box-shadow:10px 2px 20px 20px rgba(205, 215, 227, 0.396) inset; */
+                    /* box-shadow:10px 2px 20px 20px rgba(37, 100, 177, 0.396) inset;  */
+                    /* box-shadow:20px 20px 19px 20px rgba(218, 220, 213, 0.58) inset;  */
+                    box-shadow:59px 4px 9px 4px rgba(214, 225, 207, 0.811) inset; 
+               width: initial;
+            height: 15vh;
+            margin-top: 20px;
+            padding-left: 10px;
+            padding-top: 2px;
+            
+        }
+        .devition ,h2 {
+            padding-top: 5px;
+            color: rgba(16, 16, 16, 0.906);
+        }
+        .devition ,h4 {
+            padding-top: 5px;
+            color: rgb(82, 76, 76);
+        }
+
+        .imgfist button{
+        float:right;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+        width: 7rem;
+        height: 2.3rem;
+        background-color: rgb(234, 147, 17);
+        border-color: white;
+        border-radius: 7px;
+        color: white;
+        }
+        .imgfist button:hover{
+            background-color: rgba(215, 135, 16, 0.903);
+        color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="gallery-wrap">
+    <img src="https://cdn-icons-png.flaticon.com/128/10347/10347223.png" id="backbutton">
+    <div class="gallery">
+    <div id="imgfist1">
+        <span>
+            <div class="imgfist  nuts" id="i1">
+                <div class="devition">
+                <h2>Buy More & Save More</h2>
+                <h4>Nuts &Snacks</h4>  
+            </div>
+            <button>Shop Now</button>
+            </div>
+
+        </span>
+       
+        <span>
+            <div class="imgfist vegetables " id="i1">
+                <div class="devition">
+                <h2>Buy More & Save More</h2>
+                <h4>Fresh Vegetables</h4>  
+            </div>
+            <button>Shop Now</button>
+            </div>
+        </span>
+        <span>
+            <div class="imgfist fruits" id="i1">
+            <div class="devition">
+            <h2>Buy More & Save More</h2>
+            <h4>Fresh Fruits</h4>  
+        </div>
+        <button>Shop Now</button>
+        </div></span>
+    </div>
+    <div>
+        <div id="imgfist1">
+        <span>
+            <div class="imgfist eggs" id="i1">
+                <div class="devition">
+                <h2>Buy More & Save More</h2>
+                <h4>Daily Essentials Eggs & Dairy</h4>  
+            </div>
+            <button>Shop Now</button>
+            </div>
+
+        </span>
+        <span>
+            <div class="imgfist beverages" id="i1">
+                <div class="devition">
+                <h2>Buy More & Save More</h2>
+                <h4>Beverages</h4>  
+            </div>
+            <button>Shop Now</button>
+            </div>
+        </span>
+        <span>
+            <div class="imgfist eggs " id="i1">
+            <div class="devition">
+            <h2>Buy More & Save More</h2>
+            <h4>Nuts &Snacks</h4>  
+        </div>
+        <button>Shop Now</button>
+        </div>
+        </div></span>
+    </div>
+   
+</div>
+    <img src="https://cdn-icons-png.flaticon.com/128/318/318275.png" id="nextbutton">
+</div>
+
+<script>
+let scrollcontainer = document.querySelector(".gallery")
+let backBtn = document.getElementById("backbutton");
+let nextBtn = document.getElementById("nextbutton");
+scrollcontainer.addEventListener("wheel", (evt) => {
+evt.preventDefault();
+scrollcontainer.scrollLeft += evt.deltaY;
+scrollcontainer.style.scrollBehavior = "auto";
+});
+backBtn.addEventListener("click", ()=>{
+scrollcontainer.style.scrollBehavior = "smooth";
+scrollcontainer.scrollLeft += 400;
+});
+nextBtn.addEventListener("click", ()=>{
+scrollcontainer.style.scrollBehavior = "smooth";
+scrollcontainer.scrollLeft -= 400;
+});
+</script> 
+
+<!-- <script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("imfist");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+    </script> -->
+</body>
+</html>

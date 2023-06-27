@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+  h2
+  {
+    background-color: black;
+    color: white;
+  }
+  img{
+    
+    height: 50vh;
+  }
+
+ 
+.mySlides {
+  display:none;
+}
+   
+
+        .newimage img{
+            width: 18vw;
+            height: 22vh;
+            margin-top: 10px;
+          
+        
+        }
+        .newimage{
+            display: flex;
+            justify-content: space-evenly;
+            
+        }
+        .images{
+            height: 38vh;
+            width: 20vw;
+            border: 3px solid  rgba(171, 146, 146, 0.166);
+            text-align: center; 
+            margin-left: 10px; 
+            margin-top: 10px;
+        }
+        .images img:hover{
+        transform: scale(1.03);
+        }
+        .images button{
+            background-color: blueviolet;
+        }
+        .images button:hover{
+            background-color: blue;
+        }
+        
+        *{
+    margin: 0;
+    padding: 0;
+}
+h3
+{
+    background-color: rgba(194, 218, 205, 0.931);
+
+}
+    </style>
+</head>
+<body><div class="w3-content w3-section" style="max-width:100vw" >
+    <img class="mySlides" src="https://lh3.googleusercontent.com/Lsq--ate3JgAMmzh9ocp1siXebs_c12i7z6TGna-UqqpAK2fGD1CVTPQbvacEccRPFdfW1TRjgcxamr_MiLLvIeVJlkigLNF6eBzWlfQrg" style="width:100%" >
+    <img class="mySlides" src="https://lh3.googleusercontent.com/x5D6KIJhwC5r_zagaihCM9V1fHLsqCxLVAWED0pEFPPHD4TX0L4Gp8QIBaKjPVwwt3XqQioR700f7AcjJbRw0quGZ2gqjKTQqO5wj9wv" style="width:100%">
+    <img class="mySlides" src="https://www.bigbasket.com/media/uploads/banner_images/yxpl23708_l1_sbf_c_happy-chef-bakery-mixes_300_25052023_all.jpg?tr=w-1920,q=80" style="width:100%">
+    <img class="mySlides" src="https://www.bigbasket.com/media/uploads/banner_images/YXPL24049_l1_sbf_c_B1G1-Store_1200x300_5-22-2023.jpg?tr=w-1920,q=80" style="width:100%">
+    <img class="mySlides" src=" <img class="mySlides" src="https://www.bigbasket.com/media/uploads/banner_images/YXPL24049_l1_sbf_c_B1G1-Store_1200x300_5-22-2023.jpg?tr=w-1920,q=80" style="width:100%">"
+  </div>
+  
+  <script>
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+  </script>
+    
+    <div class="newimage">
+        <div class="images">
+            <button style="float: left; margin-top: 6px; margin-left: 6px; border-radius: 5px; color:white;  width: 70px; height: 30px;">20%OFF</button>
+         
+       <img src="https://d1sl07a7h3d3fr.cloudfront.net/common/master/opt_bingo_yumitos_salted_25gm_4446.jpg">
+       <h style="color: rgb(234, 144, 27); font-size: larger;">  Salted Potato Chips  </h><br>
+        <h style="color: rgb(11, 9, 10); font-size: larger;"> <h3> 4.2 &#9733; &emsp;10&#8377;-200&#8377;</h3>
+    
+        </div>
+
+           
+     <div class="images">
+    <button style="float: left; margin-top: 6px; margin-left: 6px; border-radius: 5px; color:white;  width: 70px; height: 30px;">20%OFF</button>
+            
+    <img src="https://www.bigbasket.com/media/uploads/p/m/189220_5-act-ii-instant-popcorn-classic-salted-hot-fresh-delicious.jpg?tr=w-1920,q=80">
+    <h style="color: rgb(234, 144, 27); font-size: larger;"> POP COURN</h><br>
+     <h style="color: rgb(34, 31, 33); font-size: larger;"> <h3>4.2 &#9733; &emsp;10&#8377;-200&#8377;</h3></h>
+   </div>
+         
+    <div class="images">
+    <button style="float: left; margin-top: 6px; margin-left: 6px; border-radius: 5px; color:white;  width: 70px; height: 30px;">20%OFF</button>
+     <img src="https://d1sl07a7h3d3fr.cloudfront.net/admin/product/opt_17f7ad90-98a9-4fd1-b9ba-2dfa24fa94d5-bingo_yumitos__potato_chips_tomato_12gm_4458.jpg">
+     <h style="color: rgb(234, 144, 27); font-size: larger;">CHILLI POTOTA CHIPS</h><br>
+     <h style="color: rgb(21, 20, 21); font-size: larger;"><h3>4.2 &#9733; &emsp;10&#8377;-200&#8377;</h3>
+        </div>
+
+     <div class="images">
+     <button style="float: left; margin-top: 6px; margin-left: 6px; border-radius: 5px; color:white;  width: 70px; height: 30px;">20%OFF</button>
+            
+     <img src="https://www.bigbasket.com/media/uploads/p/m/1202647_3-sunfeast-dark-fantasy-choco-fills.jpg?tr=w-1920,q=80">
+     <h style="color: rgb(234, 144, 27); font-size: larger;">DARK FANTACY</h><br>
+     <h style="color: rgb(27, 26, 27); font-size: larger;"> <h3>4.2 &#9733; &emsp;10&#8377;-200&#8377;</h3></h>
+     </div>
+
+     </div>
+    <div class="newimage">
+     <div class="images">
+    <button style="float: left; margin-top: 6px; margin-left: 6px; border-radius: 5px; color:white;  width: 70px; height: 30px;">20%OFF</button>
+     <img src="https://www.bigbasket.com/media/uploads/p/m/1221287_1-cadbury-dairy-milk-chocolate-bar-crispello.jpg?tr=w-1920,q=80">
+    <h style="color: rgb(234, 144, 27); font-size: larger;"> CRISPILLA CHOCLATE  </h><br>
+    <h style="color: rgb(14, 13, 13); font-size: larger;"> <h3>4.2 &#9733; &emsp;10&#8377;-200&#8377;</h3></h>
+     </div>
+        
+                   
+  <div class="images">
+ <button style="float: left; margin-top: 6px; margin-left: 6px; border-radius: 5px; color:white;  width: 70px; height: 30px;">20%OFF</button>
+<img src="https://www.bigbasket.com/media/uploads/p/m/1214946_7-cadbury-dairy-milk-family-pack-chocolate-bar.jpg?tr=w-1920,q=80">
+<h style="color: rgb(234, 144, 27); font-size: larger;"> DAIRY MILK</h><br>
+<h style="color: rgb(27, 25, 26); font-size: larger;"><h3>4.2 &#9733; &emsp;10&#8377;-200&#8377;</h3>
+    </div>
+                 
+<div class="images">
+<button style="float: left; margin-top: 6px; margin-left: 6px; border-radius: 5px; color:white;  width: 70px; height: 30px;">20%OFF</button>
+ <img src="https://www.bigbasket.com/media/uploads/p/m/289374_9-chitale-bandhu-mithaiwale-spring-roll-bakarwadi.jpg?tr=w-1920,q=80">
+ <h style="color: rgb(234, 144, 27); font-size: larger;">Spring Roll (Bakarwadi)</h><br>
+ <h style="color: rgb(32, 30, 31); font-size: larger;"> <h3>4.2 &#9733; &emsp;10&#8377;-200&#8377;</h3></h>
+      </div>
+        
+    <div class="images">
+<button style="float: left; margin-top: 6px; margin-left: 6px; border-radius: 5px; color:white;  width: 70px; height: 30px;">20%OFF</button>
+<img src="https://www.bigbasket.com/media/uploads/p/l/40169307_3-foodpecker-chunky-chocolate-cake-pure-veg.jpg?tr=w-640,q=80">
+<h style="color: rgb(234, 144, 27); font-size: larger;">Chilli Sprinkled</h><br>
+    <h style="color: rgb(23, 20, 22); font-size: larger;"> <h3>4.2 &#9733; &emsp;10&#8377;-200&#8377;</h3></h>
+      </div>
+        
+    </div>
+
+            <div class="newimage">
+                <div class="images">
+                    <button style="float: left; margin-top: 6px; margin-left: 6px; border-radius: 5px; color:white;  width: 70px; height: 30px;">20%OFF</button>
+                    
+               <img src="https://www.bigbasket.com/media/uploads/p/m/40180803_5-maggi-pazzta-cheese-macaroni-family-saver-pack-pouch.jpg?tr=w-1920,q=80">
+               <h style="color: rgb(234, 144, 27); font-size: larger;"> American Style Cream & Onion</h><br>
+               <h style="color: rgb(20, 18, 19); font-size: larger;"> <h3>4.2 &#9733; &emsp;10&#8377;-200&#8377;</h3></h>
+              </div>
+
+                   <div class="images">
+                    <button style="float: left; margin-top: 6px; margin-left: 6px; border-radius: 5px; color:white;  width: 70px; height: 30px;">20%OFF</button>
+                    
+               <img src="https://d1sl07a7h3d3fr.cloudfront.net/common/master/opt_bingo_mad_angels_achaari_masti_40gm_4436.jpg">
+               <h style="color: rgb(234, 144, 27); font-size: larger;">Bingo Mad Angles Achaari Masti</h><br>
+               <h style="color: rgb(36, 32, 34); font-size: larger;"> <h3>4.2 &#9733; &emsp;10&#8377;-200&#8377;</h3></h>
+                   </div>
+
+
+                   <div class="images">
+                    <button style="float: left; margin-top: 6px; margin-left: 6px; border-radius: 5px; color:white;  width: 70px; height: 30px;">20%OFF</button>
+                    
+               <img src="https://d1sl07a7h3d3fr.cloudfront.net/admin/product/opt_c993a6ef-0c68-4328-8b87-9fc22dfbdaab-6253.jpg">
+               <h style="color: rgb(234, 144, 27); font-size: larger;"> Spring Roll (Bakarwadi)</h><br>
+               <h style="color: rgb(29, 26, 28); font-size: larger;"><h3>4.2 &#9733; &emsp;10&#8377;-200&#8377;</h3></h>
+                   </div>
+
+
+                   <div class="images">
+                    <button style="float: left; margin-top: 6px; margin-left: 6px; border-radius: 5px; color:white;  width: 70px; height: 30px;">20%OFF</button>
+                    
+               <img src="https://d1sl07a7h3d3fr.cloudfront.net/common/master/opt_bingo_mad_angles_fiery_peri_peri_40gm_4403.jpg">
+               <h style="color: rgb(234, 144, 27); font-size: larger;">Bingo Mad Angles Fiery Peri Peri</h><br>
+               <h style="color: rgb(23, 22, 23); font-size: larger;"><h3>4.2 &#9733; &emsp;10&#8377;-200&#8377;</h3></h>
+                   </div>
+
+            </div>
+            <div class="newimage">
+                <div class="images">
+                    <button style="float: left; margin-top: 6px; margin-left: 6px; border-radius: 5px; color:white;  width: 70px; height: 30px;">20%OFF</button>
+                    
+               <img src="https://d1sl07a7h3d3fr.cloudfront.net/admin/product/opt_be594738-2615-4612-a55f-3bea19a2f067-26441.jpg">
+               <h style="color: rgb(234, 144, 27); font-size: larger;">  Hot n Sweet Chilli </h><br>
+               <h style="color: rgb(17, 16, 16); font-size: larger;"> <h3>4.2 &#9733; &emsp;10&#8377;-200&#8377;</h3></h>
+                   </div>
+        
+        
+                   
+                   <div class="images">
+                    <button style="float: left; margin-top: 6px; margin-left: 6px; border-radius: 5px; color:white;  width: 70px; height: 30px;">20%OFF</button>
+                    
+               <img src="https://d1sl07a7h3d3fr.cloudfront.net/admin/product/opt_ae59e5e8-be6b-4e7d-8e52-f4d0cc0ced0b-haldirams_salted_peanuts_150gm.jpg">
+               <h style="color: rgb(234, 144, 27); font-size: larger;"> Haldiram's Salted Peanuts</h><br>
+               <h style="color: rgb(13, 13, 13); font-size: larger;"> <h3>4.2 &#9733; &emsp;10&#8377;-200&#8377;</h3></h>
+                   </div>
+        
+                   <div class="images">
+                    <button style="float: left; margin-top: 6px; margin-left: 6px; border-radius: 5px; color:white;  width: 70px; height: 30px;">20%OFF</button>
+                    
+               <img src="https://d1sl07a7h3d3fr.cloudfront.net/admin/product/opt_5cc30043-6c54-4f1a-b8c5-ba04cb5e7aad-haldirams_bhel_puri_150gm.jpg">
+               <h style="color: rgb(234, 144, 27); font-size: larger;">Haldiram's Bhel Puri</h><br>
+               <h style="color: rgb(33, 31, 32); font-size: larger;"> <h3>4.2 &#9733; &emsp;10&#8377;-200&#8377;</h3></h>
+                   </div>
+        
+                   <div class="images">
+                    <button style="float: left; margin-top: 6px; margin-left: 6px; border-radius: 5px; color:white;  width: 70px; height: 30px;">20%OFF</button>
+                    
+               <img src="https://d1sl07a7h3d3fr.cloudfront.net/admin/product/opt_f6f26801-0542-4fc9-a5bb-22c05c8e1617-haldirams_masala_peanuts_55gm.jpg">
+               <h style="color: rgb(234, 144, 27); font-size: larger;">Haldiram's Masala Peanuts</h><br>
+               <h style="color: rgb(22, 21, 21); font-size: larger;"> <h3>4.2 &#9733; &emsp;10&#8377;-200&#8377;</h3></h>
+                   </div>
+        
+                    </div>
+        
+           
+                    <div class="newimage">
+                        <div class="images">
+                            <button style="float: left; margin-top: 6px; margin-left: 6px; border-radius: 5px; color:white;  width: 70px; height: 30px;">20%OFF</button>
+                            
+                       <img src="https://www.bigbasket.com/media/uploads/p/m/1212328_3-bb-royal-muesli-with-21-fruit-nut.jpg?tr=w-1920,q=80">
+                       <h style="color: rgb(234, 144, 27); font-size: larger;"> Haldiram's All In One  </h><br>
+                       <h style="color: rgb(15, 14, 14); font-size: larger;"><h3>4.2 &#9733; &emsp;10&#8377;-200&#8377;</h3></h>
+                           </div>
+                
+                
+                           
+                           <div class="images">
+                            <button style="float: left; margin-top: 6px; margin-left: 6px; border-radius: 5px; color:white;  width: 70px; height: 30px;">20%OFF</button>
+                            
+                       <img src="https://d1sl07a7h3d3fr.cloudfront.net/admin/product/opt_17bbd47f-1aca-4580-bca4-e95cdf14cb71-Haldirams_moong_dal%20_150gm.jpg">
+                       <h style="color: rgb(234, 144, 27); font-size: larger;"> Haldiram's Moong Dal</h><br>
+                       <h style="color: rgb(48, 43, 46); font-size: larger;"><h3>4.2 &#9733; &emsp;10&#8377;-200&#8377;</h3></h>
+                           </div>
+                
+                           <div class="images">
+                            <button style="float: left; margin-top: 6px; margin-left: 6px; border-radius: 5px; color:white;  width: 70px; height: 30px;">20%OFF</button>
+                            
+                       <img src="https://d1sl07a7h3d3fr.cloudfront.net/admin/product/opt_f30fa15f-2752-4059-ab4e-dc4639e73899-Haldirams_tasty_nuts_55gm.jpg">
+                       <h style="color: rgb(234, 144, 27); font-size: larger;">Haldiram's Tasty Nuts</h><br>
+                       <h style="color: rgb(19, 17, 18); font-size: larger;"> <h3>4.2 &#9733; &emsp;10&#8377;-200&#8377;</h3></h>
+                           </div>
+                
+                           <div class="images">
+                            <button style="float: left; margin-top: 6px; margin-left: 6px; border-radius: 5px; color:white;  width: 70px; height: 30px;">20%OFF</button>
+                            
+                       <img src="https://www.bigbasket.com/media/uploads/p/m/271675_8-nestle-kitkat-chocolate-wafers-party-pack-2-fingers.jpg?tr=w-1920,q=80">
+                       <h style="color: rgb(234, 144, 27); font-size: larger;">Haldiram's Soya Stick</h><br>
+                       <h style="color: rgb(38, 31, 31); font-size: larger;"><h3>4.2 &#9733; &emsp;10&#8377;-200&#8377;</h3></h>
+                           </div>
+                
+                            </div>
+                
+</body>
+</html>

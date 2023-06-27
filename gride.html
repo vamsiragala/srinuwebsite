@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(8,10v);
+            grid-template-rows:  repeat(7,20vh);
+        }
+        .head{
+            grid-area: 1/1/2/9;
+            background-color: aqua;
+        }
+        .main{
+            grid-area: 2/1/7/5;
+            background-color: bisque;
+        }
+        .main-inner{
+            background-color: rgb(37, 122, 94);
+            grid-area: 2/5/7/9;
+        }
+        .buttom{
+            background-color: rgb(210, 16, 35);
+            grid-area:7/1/8/9 ;
+        }
+        .dropdown{
+            position: relative;
+        }
+        .dropbtn{
+            color: brown;
+        }
+        .dropdown-content{
+            display: none;
+            position: absolute;
+            z-index: 1;
+        }
+        .dropdown-content a{
+            display: block;
+        }
+        .dropdown:hover .dropdown-content{
+            display: block;
+        }
+        
+    </style>
+   
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            
+            <div class="dropdown">
+                <button class="dropbtn">Dropdown</button>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
+
+        </div>
+        <div class="main"></div>
+        <div class="main-inner"></div>
+        <div class="buttom"></div>
+    </div>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+the grid are start with in ------- top, left ,buttom ,right ----
